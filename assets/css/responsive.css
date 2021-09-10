@@ -47,6 +47,17 @@
     .round_sec_left ul#pills-tab li.nav-item button {
         width: 185px;
     }
+    section.big_card .cont_parson {
+        height: 100%;
+        max-height: 585px;
+    }
+    .re_votes {
+        min-width: 270px;
+        width: max-content;
+    }
+    .header_left{
+    margin-right: 20px;
+}
 
 
 }
@@ -75,9 +86,81 @@
     .footer_btm {
         margin-top: 20px;
     }
-    .container {
-        max-width: 630px;
+    .contest_time ul li span {
+        font-size: 30px;
+        padding: 10px 11px;
     }
+    
+    .round_sec__list h1 {
+        font-size: 28px;
+    }
+    
+    .round_sec__list p {
+        font-size: 22px;
+    }
+    
+    .header_right {
+        justify-content: center;
+    }
+    
+    .header-area .row {
+        justify-content: center;
+    }
+    
+    .round_sec_left ul#pills-tab li.nav-item button {
+        width: 146px;
+    }
+    
+    .col-lg-7 {
+    }
+    
+    .round_sec__list ul li p span {
+        margin-left: 10px;
+        font-size: 12px;
+    }
+    
+    .round_sec__list ul li a {
+        font-size: 16px;
+        width: 80px;
+        height: 35px;
+    }
+    
+    .rsr.d_md_none {
+        padding: 20px 25px 0;
+        padding-right: 15px;
+    }
+    
+    .round_sec__list ul {
+        margin-top: 30px;
+    }
+    
+    .round_sec__list ul li {
+        margin-bottom: 16px;
+    }
+    
+    .total_vote {
+        display: flex;
+    }
+    
+    .round_sec__list p {
+        font-size: 20px;
+    }
+    
+    .round_sec__list p span {
+        font-size: 16px;
+    }
+    
+    .d-flex.d_desk_none {
+        display: none !important;
+    }
+    
+    .cont_parson a.ct_name {
+        font-size: 16px;
+        right: 15px;
+    }
+    .cont_parson,.cont_hash{
+    margin-bottom: 15px;
+}
 }
 
  
@@ -158,13 +241,15 @@
 }
 
 .winer_prices .win h3 a {
-    padding: 7px 12px;
-    font-size: 18px;
+    padding: 10px 12px;
 }
-
+.winer_prices .win h3 a img {
+    width: 24px;
+    transform: translateY(3px);
+}
 .round_sec_left ul#pills-tab li.nav-item button {
     font-size: 19px;
-    width: 136px;
+    width: 150px;
     height: 45px;
 }
 
@@ -173,7 +258,7 @@
 }
 
 .contest_time ul li span {
-    font-size: 26px;
+    font-size: 32px;
     padding: 7px 11px;
 }
 
@@ -214,9 +299,8 @@
     max-width: 150px;
 }
 .social_link ul li a {
-    font-size: 15px;
-    width: 30px;
-    height: 30px;
+    width: 35px;
+    height: 35px;
 }
 
 .copyright a {
@@ -232,7 +316,7 @@ footer {
 }
 .winer_prices {
     flex-wrap: wrap;
-    justify-content: space-around;
+    justify-content: space-between;
 }
 
 .win {
@@ -255,7 +339,9 @@ footer {
 .d-flex.d_desk_none .vote_react a {
     font-size: 13px;
 }
-
+.vote_react a img{
+    width: 18px;
+}
 .d-flex.d_desk_none .cont_parson span {
     font-size: 20px;
 }
@@ -297,21 +383,84 @@ footer {
 }
 .cont_parson span#number{
     font-size: 18px;
-    width: 50px;
+    width: 15px;
     height: 50px;
 }
 .d-flex.d_desk_none .cont_parson video#video {
-    width: 200px;
+    width: 225px;
     margin: auto;
 }
 .d-flex.d_desk_none a#hover_ply {
-    font-size: 21px;
     width: 60px;
     height: 60px;
     padding-left: 5px;
 }
+.d-flex.d_desk_none a#hover_ply img{
+    width: 32px;
+}
 .header_nav ul li{
     border: none;
+}
+.col-lg-5 {
+    width: 0%;
+}
+
+.col-lg-7 {
+    width: 100%;
+}
+
+.contest_time {
+    padding-top: 50px;
+}
+
+.contest_time ul:after {
+    top: -39px;
+    font-size: 14px;
+}
+.col-lg-4.col-md-6.col-sm-6 {
+    width: 49%;
+}
+
+.d-flex.d_desk_none {
+    justify-content: space-between;
+}
+
+.col-lg-4.col-md-6 {
+    width: 100%;
+}
+
+.d-flex {
+    justify-content: space-between;
+}
+
+.col-lg-6 {
+    width: 100%;
+}
+section.contestors.mt-5 span#number {
+    font-size: 30px;
+    width: 44px;
+    height: 68px;
+    left: -22px;
+    top: -17px;
+}
+section.lst_card .vote_react {
+    margin-bottom: 10px;
+}
+
+section.lst_card .vote_react a#l38 {
+    font-size: 19px;
+    text-align: center;
+}
+
+section.lst_card .vote_react button {
+    font-size: 22px;
+    padding: 10px 25px;
+}
+section.contestors.mt-5 .vote_react {
+    margin-bottom: 10px;
+}
+.cont_hash {
+    height: 92%;
 }
 
 
@@ -339,10 +488,9 @@ footer {
     
     .header_nav ul li {
         border: none;
-        margin-bottom: 10px;
     }
     .round_sec_left ul#pills-tab li.nav-item button{
-    width: 116px;
+    width: 129px;
     font-size: 17px;
     height: 40px;
 }
@@ -382,7 +530,17 @@ section.d-flex.d_desk_none .d-flex {
     flex-wrap: wrap;
     justify-content: space-around;
 }
+.col-lg-4.col-md-6.col-sm-6.ful {
+    width: 46%;
+}
 
+.col-lg-3.col-md-6.col-sm-6 {
+    width: 50%;
+}
+
+.newsletter input {
+    height: 46px;
+}
 }
 
 @media(max-width: 370px) {
@@ -391,7 +549,7 @@ section.d-flex.d_desk_none .d-flex {
     padding: 8px 10px;
 }
 .round_sec_left ul#pills-tab li.nav-item button{
-    width: 99px;
+    width: 99px  !important;
     font-size: 16px;
     height: 40px;
 }
@@ -399,7 +557,6 @@ section.d-flex.d_desk_none .d-flex {
     height: 45px;
 }
 .contest_time ul{
-    margin: unset;
     padding-left: 10px;
 }
 .contest_time small{
@@ -421,13 +578,43 @@ section.d-flex.d_desk_none .d-flex {
 .cont_hash a.ct_name{
     font-size: 18px;
 }
-
-
-
-
-
-
-
-
+.header_nav ul li{
+    margin-bottom: 10px;
+}
 
 }
+
+@media(max-width: 400px) {
+    
+.col-lg-4.col-md-6.col-sm-6 {
+    width: 100%;
+    margin-bottom: 10px;
+}
+
+.col-lg-4.col-md-6.col-sm-6.ful {
+    width: 100%;
+}
+section.d-flex.d_desk_none .container {
+    padding: 0 !important;
+    width: max-content;
+    margin: auto;
+    text-align: center;
+    max-width: unset;
+}
+section.d-flex.d_desk_none {
+    margin-left: 15px;
+}
+.round_sec_left ul#pills-tab li.nav-item button {
+    width: 118px;
+}
+section.contestors.mt-5 span#number {
+    width: 50px;
+    height: 73px;
+    top: -25px;
+}
+.winer_prices {
+    justify-content: space-evenly;
+}
+
+}
+
