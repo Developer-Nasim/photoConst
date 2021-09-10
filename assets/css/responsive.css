@@ -194,18 +194,19 @@
     .footer_link {
         margin-bottom: 30px;
     }
-    
     .footer_btm {
         margin-top: 5px;
         padding-top: 16px;
+        display: block;
+        text-align: center;
     }
-    .container {}
-
 .header_nav nav ul li a {
-    padding: 7px 14px;
-    font-size: 16px;
+    padding: 7px 10px;
+    font-size: 15px;
 }
-
+.social_link {
+    margin-bottom: 10px;
+}
 .header_nav nav ul {
     margin: auto;
     margin-bottom: 20px;
@@ -223,25 +224,23 @@
     line-height: 24px;
     font-size: 15px;
 }
-
 .winer_prices a {
-    font-size: 16px;
-    padding: 10px 25px;
+    font-size: 15px;
+    padding: 8px 10px;
     margin-bottom: 10px;
 }
-
 .win span {
-    font-size: 18px;
+    font-size: 16px;
+    margin-right: 5px;
 }
-
 .win h3 {
-    padding: 6px 0 8px;
-    font-size: 20px;
-    padding-left: 7px;
+    padding: 3px 0 5px;
+    font-size: 16px;
+    padding-left: 8px;
+    overflow: hidden;
 }
-
 .winer_prices .win h3 a {
-    padding: 10px 12px;
+    padding:9px 5px;
 }
 .winer_prices .win h3 a img {
     width: 24px;
@@ -310,6 +309,7 @@
 footer {
     padding: 50px 0 0;
     margin: 30px 0 20px;
+    overflow: hidden;
 }
 .round_sec__list {
     display: none;
@@ -355,12 +355,7 @@ footer {
     left: auto;
     transform: translate(10px, 0px);
 }
-
-.d-flex.d_desk_none .vote_react button {
-    font-size: 12px;
-    padding: 5px 13px;
-}
-
+ 
 .d-flex.d_desk_none .cont_parson {
     overflow: hidden;
     height: 235px;
@@ -462,6 +457,28 @@ section.contestors.mt-5 .vote_react {
 .cont_hash {
     height: 92%;
 }
+.header_right { 
+    padding: 15px; 
+}
+section.big_card span {
+    font-size: 28px;
+    padding: 8px 15px;
+}
+section.big_card a.ct_name {
+    font-size: 20px;
+}
+section.big_card .vote_react a {
+    font-size: 24px; 
+    margin-bottom: 10px;
+}
+section.big_card .vote_react a img {
+    width: 30px;
+}
+
+
+
+
+
 
 
 }
@@ -472,10 +489,7 @@ section.contestors.mt-5 .vote_react {
  
 }
 
-@media(max-width: 440px) {
-    .contest_time ul {
-    }
-    
+@media(max-width: 440px) { 
     .contest_time ul li span {
         font-size: 21px;
         padding: 8px 11px;
@@ -483,7 +497,7 @@ section.contestors.mt-5 .vote_react {
     }
     
     .contest_time ul li {
-        margin-right: 7px;
+        margin-right: -3px;
     }
     
     .header_nav ul li {
@@ -557,7 +571,8 @@ section.d-flex.d_desk_none .d-flex {
     height: 45px;
 }
 .contest_time ul{
-    padding-left: 10px;
+    padding-left: 0px;
+    margin-left: 10px;
 }
 .contest_time small{
     margin-left: 10px;
@@ -577,10 +592,7 @@ section.d-flex.d_desk_none .d-flex {
 }
 .cont_hash a.ct_name{
     font-size: 18px;
-}
-.header_nav ul li{
-    margin-bottom: 10px;
-}
+} 
 
 }
 
@@ -613,7 +625,7 @@ section.contestors.mt-5 span#number {
     top: -25px;
 }
 .winer_prices {
-    justify-content: space-evenly;
+    justify-content: space-between;
 }
 
 }

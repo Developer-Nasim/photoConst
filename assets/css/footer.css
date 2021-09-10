@@ -1,10 +1,8 @@
-
-
-
 footer {
     padding: 70px 0 0;
     border-top: 2px solid #E5E5E5;
     margin: 60px 0 26px;
+    overflow: hidden;
 }
  
 .footer_link ul li {
@@ -102,4 +100,11 @@ video#video {
 .cont_hash .vote_react button.big2 {
   font-size: 25px;
   padding: 8px 20px;
+}
+li.flogos a img:last-child,
+body.dark li.flogos a img:first-child{
+    display: none;
+}
+body.dark li.flogos a img:last-child{
+    display: block;
 }

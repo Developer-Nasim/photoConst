@@ -341,8 +341,8 @@
                             <div class="col-lg-4 col-md-6 col-sm-6 ful">
                                 <div class="cont_parson " >
                                     <a href="#" id="hover_ply" >
-                                        <img src="https://img.icons8.com/ios-glyphs/50/ffffff/play.png"/>
-                                        <i class="fas fa-stop"></i>
+                                        <img class="playBtns" src="https://img.icons8.com/ios-glyphs/50/ffffff/play.png"/>
+                                        <img class="stopBtns" src="https://i.ibb.co/GM5q2Mh/comvecteezy587191-removebg-preview.png" alt="" border="0"> 
                                     </a>
                                     <span id="number">11</span>
                                     <a href="#" class="ct_name">jessica gozman <br> <span><img src="assets/img/france.png" alt=""> fance</span> </a>
@@ -400,8 +400,8 @@
                         <div class="col-lg-6 d_md_none">
                             <div class="cont_parson rund_spn">
                                 <a href="#" id="hover_ply" >
-                                    <img src="https://img.icons8.com/ios-glyphs/50/ffffff/play.png"/>
-                                    <i class="fas fa-stop"></i>
+                                    <img class="playBtns" src="https://img.icons8.com/ios-glyphs/50/ffffff/play.png"/>
+                                    <img class="stopBtns" src="https://i.ibb.co/GM5q2Mh/comvecteezy587191-removebg-preview.png" alt="" border="0"> 
                                 </a>
                                 <span id="number">11</span>
                                 <a href="#" class="ct_name">jessica gozman <br> <span><img src="assets/img/france.png" alt=""> fance</span> </a>
@@ -417,8 +417,8 @@
                         <div class="col-lg-6 ">
                             <div class="cont_parson">
                                 <a href="#" id="hover_ply" >
-                                    <img src="https://img.icons8.com/ios-glyphs/50/ffffff/play.png"/>
-                                    <i class="fas fa-stop"></i>
+                                    <img class="playBtns" src="https://img.icons8.com/ios-glyphs/50/ffffff/play.png"/>
+                                    <img class="stopBtns" src="https://i.ibb.co/GM5q2Mh/comvecteezy587191-removebg-preview.png" alt="" border="0"> 
                                 </a>
                                 <span>5432</span>
                                 <a href="#" class="ct_name">jessica gozman <br> <span><img src="assets/img/france.png" alt=""> fance</span> </a>
@@ -434,8 +434,8 @@
                         <div class="col-lg-6 d_md_none">
                             <div class="cont_hash">
                                 <a href="#" id="hover_ply" >
-                                    <img src="https://img.icons8.com/ios-glyphs/50/ffffff/play.png"/>
-                                    <i class="fas fa-stop"></i>
+                                    <img class="playBtns" src="https://img.icons8.com/ios-glyphs/50/ffffff/play.png"/>
+                                    <img class="stopBtns" src="https://i.ibb.co/GM5q2Mh/comvecteezy587191-removebg-preview.png" alt="" border="0"> 
                                 </a>
                                 <span>#2</span>
                                 <a href="#" class="ct_name">spain <img src="assets/img/spain.png" alt=""> </a>
@@ -481,8 +481,8 @@
                         <div class="col-lg-4 col-md-6 lst_card">
                             <div class="cont_hash">
                                 <a href="#" id="hover_ply" >
-                                    <img src="https://img.icons8.com/ios-glyphs/50/ffffff/play.png"/>
-                                    <i class="fas fa-stop"></i>
+                                    <img class="playBtns" src="https://img.icons8.com/ios-glyphs/50/ffffff/play.png"/>
+                                    <img class="stopBtns" src="https://i.ibb.co/GM5q2Mh/comvecteezy587191-removebg-preview.png" alt="" border="0"> 
                                 </a>
                                 <span>#2</span>
                                 <a href="#" class="ct_name">spain <img src="assets/img/spain.png" alt=""> </a>
@@ -512,7 +512,7 @@
                                 <li><h4>Contact us</h4></li>
                                 <li><a href="tel:"><i class="fal fa-phone-alt"></i> +1 718 717 2864</a></li>
                                 <li><a href=""><i class="fal fa-envelope"></i> help@onlywinner.vote</a></li>
-                                <li><a href=""><img src="assets/img/logo.png" alt=""></a></li>
+                                <li class="flogos"><a href=""><img src="assets/img/logo.png" alt=""><img src="assets/img/darkLogo.png" alt=""></a></li>
                             </ul>
                         </div>
                     </div>
@@ -573,6 +573,17 @@
 		<!-- JS here --> 
 
         <script>
+
+            let tabMenu = document.querySelectorAll('ul#pills-tab li button')
+            tabMenu.forEach(li => {
+                li.addEventListener('click', () => {
+                    tabMenu.forEach(liE => {
+                        liE.classList.remove('active')
+                    });
+                    li.classList.add('active')  
+                })
+            })
+
             function thmFunction() {
                 let body = document.querySelector('body') || document.documentElement;
                 let tbtn = document.querySelector('.switch input')

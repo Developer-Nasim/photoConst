@@ -12,7 +12,8 @@ body {
   color: #666666;
   line-height: 24px;
   font-size: 16px;
-  }
+  margin: 0;
+}
 
   p{
     margin: 0;
@@ -212,6 +213,7 @@ li {
     padding-left: var(--bs-gutter-x,.75rem);
     margin-right: auto;
     margin-left: auto;
+    box-sizing: border-box;
 }
 /* container End */
 
@@ -219,9 +221,11 @@ li {
 
 .header-area {
     margin-top: 20px;
+    overflow: hidden;
 }
 .header-area .container{
     max-width: 1280px;
+    box-sizing: border-box;
 } 
 .profile {
     text-align: center;
@@ -272,6 +276,8 @@ li {
     border-radius: 10px;
     padding-left: 12px;
     margin-bottom: 25px;
+    width: 100%;
+    box-sizing: border-box;
 }
 .header_nav nav ul li a.active {
   background: var(--whiteColor);

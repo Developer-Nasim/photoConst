@@ -1,7 +1,10 @@
+main{
+    overflow: hidden;
+}
 section.round_section {
     margin-top: 50px;
 }
- 
+
 .round_sec_left ul#pills-tab {
     display: flex;
     width: 100%;
@@ -23,9 +26,11 @@ section.round_section {
     position: relative;
     z-index: 3;
     border-radius: 0;
-    border-top-left-radius: 16px;
     margin-left: -1px;
 } 
+.round_sec_left ul#pills-tab li.nav-item button.active{ 
+    border-top-left-radius: 16px;
+}
 .round_sec_left ul#pills-tab li.nav-item button.btn3{
     z-index: 1;
 }
@@ -181,8 +186,8 @@ section.round_section {
     color: var(--whiteColor);
     text-transform: capitalize;
     border-radius: 30px;
-    padding: 5px 20px;
-    font-size: 14px;
+    padding: 9px 20px;
+    font-size: 15px;
     background: rgb(0 0 0 / 30%);
     font-weight: 500;
 }
@@ -350,6 +355,7 @@ i.fas.fa-thumbs-up {
 
 .total_vote {
     display: flex;
+    align-items: center;
 }
 .total_vote a {
     display: inline-flex;
@@ -581,3 +587,26 @@ a#hover_ply img.stopBtns {
     left: 50%;
     transform: translate(-50%,-50%);
 }
+.total_vote a img {
+    transform: rotate(45deg);
+    margin-right: 7px;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
