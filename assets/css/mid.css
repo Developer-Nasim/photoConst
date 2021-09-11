@@ -39,7 +39,7 @@ section.round_section {
     z-index: 5;
     height: 65px;
     color: var(--whiteColor);
-    background: var(--thmColor);
+    background: var(--thmColor) !important;
 }
  
 .contest_time {box-shadow: -14px 0px 12px rgb(0 0 0 / 4%);padding-top: 70px;}
@@ -202,12 +202,11 @@ section.round_section {
 .vote_react a i {
     margin-right: 5px;
 }
-
 .ct_img {
     width: 100%;
     height: max-content;
+    object-fit: cover;
 }
-
 .rsr {padding: 20px 40px 0;/* width: 100%; */height: 100%;box-shadow: 50px 9px 48px rgb(0 0 0 / 4%);}
 
 .src_box {
@@ -500,7 +499,7 @@ a#hover_ply i,a#hover_ply img{
 }
 .cont_parson.playing:hover a#hover_ply {
     opacity: 1;
-    visibility: visible;
+    /* visibility: visible; */
 }
 img.stopBtns {
     display: none;
@@ -592,7 +591,30 @@ a#hover_ply img.stopBtns {
     margin-right: 7px;
 }
 
+/* dark mode css */
+.dark .round_sec_left ul#pills-tab li.nav-item button {
+    background: #212121;
+    color: #fff;
+    box-shadow: 4px 17px 18px rgb(0 0 0 / 58%);
+}
 
+.dark .src_box input {
+    background: #2121217a;
+    color: #fff;
+}
+
+.dark .contest_time ul li span {
+    background: #0e0e0e;
+    color: #fff;
+}
+
+.dark .vote_blk {
+    background: #272727;
+}
+
+.dark .vote_blk p span {
+    color: #fff;
+}
 
 
 

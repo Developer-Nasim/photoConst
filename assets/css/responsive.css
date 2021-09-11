@@ -170,6 +170,17 @@
         margin-top: 20px;
     }
     
+.newsletter input {
+    height: 46px;
+    width: 100%;
+    max-width: 100%;
+    box-sizing: border-box;
+}
+.col-lg-3.col-md-6.col-sm-12.flInMob {
+    display: block;
+    width: 100%;
+    box-sizing: border-box;
+}
     section.contestors.mt-5 {
         margin-top: 5px !important;
     }
@@ -189,8 +200,9 @@
     .footer_link.nletters {
         margin: 0;
         margin-bottom: 30px;
+        width: 100%;
+        box-sizing: border-box;
     }
-    
     .footer_link {
         margin-bottom: 30px;
     }
@@ -473,8 +485,7 @@ section.big_card .vote_react a {
 }
 section.big_card .vote_react a img {
     width: 30px;
-}
-
+} 
 
 
 
@@ -550,10 +561,6 @@ section.d-flex.d_desk_none .d-flex {
 
 .col-lg-3.col-md-6.col-sm-6 {
     width: 50%;
-}
-
-.newsletter input {
-    height: 46px;
 }
 }
 
