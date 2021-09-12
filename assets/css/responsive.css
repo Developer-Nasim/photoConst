@@ -369,11 +369,19 @@ footer {
     left: auto;
     transform: translate(10px, 0px);
 }
- 
+.cont_hash .vote_react button { 
+    padding: 10px 16px;
+    font-size: 16px;
+}
+section.round_section .round_sec_left div#pills-home .d-flex.d_desk_none .col-lg-4.col-md-6.col-sm-6 {
+    width: 49%;
+    margin-bottom: 10px;
+}
 .d-flex.d_desk_none .cont_parson {
     overflow: hidden;
     height: 235px;
-    min-width: 190px;
+    min-width: 100%;
+    box-sizing: border-box;
 }
 .d-flex.d_desk_none .cont_hash span {
     font-size: 16px;
@@ -388,17 +396,14 @@ footer {
 .d-flex.d_desk_none .cont_hash {
     max-height: 252px;
     height: 235px;
-    min-width: 197px;
+    min-width: 100%;
+    max-width: 100%;
 }
 .cont_parson span#number{
     font-size: 18px;
     width: 15px;
     height: 50px;
-}
-.d-flex.d_desk_none .cont_parson video#video {
-    width: 225px;
-    margin: auto;
-}
+} 
 .d-flex.d_desk_none a#hover_ply {
     width: 60px;
     height: 60px;
@@ -432,6 +437,7 @@ footer {
 
 .d-flex.d_desk_none {
     justify-content: space-between;
+    margin-top: 0;
 }
 
 .col-lg-4.col-md-6 {
@@ -490,12 +496,20 @@ section.big_card .vote_react a img {
 } 
 .col-lg-3.col-md-6.col-sm-12.flInMob {
     display: block;
-    width: 100%;
+    width: 50%;
     box-sizing: border-box;
 }
-
-
-
+.vote_react button { 
+    padding: 7px 11px;
+    font-size: 14px; 
+}
+video#video { 
+    height: 100% !IMPORTANT; 
+}
+.ct_img {
+    width: 100%;
+    height: 100%; 
+}
 
 
 
@@ -617,9 +631,13 @@ section.d-flex.d_desk_none .d-flex {
     width: 100%;
     margin-bottom: 10px;
 }
-
 .col-lg-4.col-md-6.col-sm-6.ful {
     width: 100%;
+}
+section.d-flex.d_desk_none .d-flex .col-lg-4.col-md-6.col-sm-6,
+section.d-flex.d_desk_none .d-flex .col-lg-4.col-md-6.col-sm-6.ful{
+    width: 49%;
+    margin-bottom: 5px;
 }
 section.d-flex.d_desk_none .container {
     padding: 0 !important;
@@ -630,6 +648,7 @@ section.d-flex.d_desk_none .container {
 }
 section.d-flex.d_desk_none {
     margin-left: 15px;
+    margin-right: 15px;
 }
 .round_sec_left ul#pills-tab li.nav-item button {
     width: 118px;
